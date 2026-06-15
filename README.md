@@ -76,7 +76,11 @@ The generation pipeline operates in three successive LLM stages:
 └─────────────────────────────────────────────────────────────┘
 ```
 
-![DepSim Pipeline](figs/teafigure.png)
+<!-- ![DepSim Pipeline](figs/teafigure.png) -->
+
+<p align="center">
+  <img src="figs/teafigure.png" width="50%">
+</p>
 
 **Key design choice:** The same LLM plays all three roles (LLM-1, LLM-2, LLM-3) within a single pipeline run, ensuring internal consistency.
 
