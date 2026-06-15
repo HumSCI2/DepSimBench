@@ -78,7 +78,7 @@ The generation pipeline operates in three successive LLM stages:
 
 <!-- ![DepSim Pipeline](figs/teafigure.png) -->
 
-<p align="center">
+<p align="left">
   <img src="figs/teafigure.png" width="50%">
 </p>
 
