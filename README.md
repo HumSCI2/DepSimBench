@@ -1,4 +1,4 @@
-# DepSim: Real-Patient-Grounded Synthetic Dialogue Generation and Depression Screening Benchmark
+# DepSimBench: Scaling Data-Grounded Patient Simulation and Multi-Task Benchmarking for Depression Assessment via LLMs
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -78,9 +78,10 @@ The generation pipeline operates in three successive LLM stages:
 
 <!-- ![DepSim Pipeline](figs/teafigure.png) -->
 
-<p align="left">
+<p align="center">
   <img src="figs/teafigure.png" width="50%">
 </p>
+
 
 **Key design choice:** The same LLM plays all three roles (LLM-1, LLM-2, LLM-3) within a single pipeline run, ensuring internal consistency.
 
@@ -257,11 +258,10 @@ python scripts/run_benchmark.py --all-models --tasks 1 2 3 4
 
 ```
 @article{depsim2025,
-  title={DepSim: Real-Patient-Grounded Synthetic Dialogue Generation
-         and Depression Screening Benchmark},
+  title={DepSimBench: Scaling Data-Grounded Patient Simulation and Multi-Task Benchmarking for Depression Assessment via LLMs},
   author={...},
   journal={...},
-  year={2025}
+  year={2026}
 }
 ```
 
